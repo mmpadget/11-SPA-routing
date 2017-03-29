@@ -3,4 +3,10 @@
 // TODO: Configure routes for this app with page.js, by registering each URL your app can handle,
 // linked to a a single controller function to handle it:
 
+page('/', articleController.init)
+page('/about', aboutController.init)
+// page('/new', newArticle.initNewArticlePage)
+// page('/admin', adminView.initAdminPage)
+
 // TODO: What function do you call to activate page.js? Fire it off now, to execute
+page();

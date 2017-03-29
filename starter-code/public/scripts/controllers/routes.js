@@ -5,8 +5,6 @@
 
 page('/', articleController.init)
 page('/about', aboutController.init)
-// page('/new', newArticle.initNewArticlePage)
-// page('/admin', adminView.initAdminPage)
 
 // TODO: What function do you call to activate page.js? Fire it off now, to execute
 page();
